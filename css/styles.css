@@ -332,18 +332,42 @@ transform: translateY(0);
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-content {
+  margin-right: 120px;
+}
 .footer-logo .logo-part {
   color: #f4f4fd;}
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-social-title {
+ font-weight: 500;
+ font-size: 16px; 
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #fff;
+ margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px; 
+}
+.social-link-item .footer-social-link:hover,
+.social-link-item .footer-social-link:focus {
+  background-color: #31d0aa;
+}
+.social-link-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
