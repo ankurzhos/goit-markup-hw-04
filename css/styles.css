@@ -134,7 +134,7 @@ h3 {
 /* HERO SECTION*/
 .hero-section {
   background-color: #2e2f42;
-  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -271,7 +271,7 @@ h3 {
 }
 .social-link-item a:hover,
 .social-link-item a:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .social-icon {
   fill: #F4F4FD;
@@ -311,7 +311,7 @@ transform: translateY(0);
   width: 100%;
   padding: 40px 32px 164px;
   transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out
 }
 .portfolio-inform {
   padding: 32px 16px;
